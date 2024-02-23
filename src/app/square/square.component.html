@@ -1,0 +1,5 @@
+<button *ngIf="!value" [ngStyle]="{'background-color': '#fe93d7'}">{{value}}</button>
+<button *ngIf="value == 'X'" [ngStyle]="{'background-color': 'green'}">{{value}}</button>
+<button *ngIf="value == 'O'" [ngStyle]="{'background-color': 'blue'}">{{value}}</button>
+
+
